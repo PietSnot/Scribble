@@ -1,0 +1,9 @@
+Scribble version: 1.0
+// smoothing is the nr of Points used to smooth a curve
+// to rule out any smoothing, set this value to 1
+smoothing: 7
+// threshold for storing points
+// a value of 3 means that only every third point will be used in a curve
+// this adds to the smootnig effect. To disable this, set the value
+// equal to 1
+pointThreshold: 2
